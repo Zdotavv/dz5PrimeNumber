@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Простые числа: ");
         for (int i = 2; i <= 100; i++) {
             boolean primeNumber = true;
 
