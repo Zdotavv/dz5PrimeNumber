@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Простые числа: ");
+        System.out.print("Простые числа: ");
         for (int i = 2; i <= 100; i++) {
             boolean primeNumber = true;
 
@@ -11,7 +11,7 @@ public class Main {
                 }
             }
             if (primeNumber) {
-                System.out.println(i);
+                System.out.print(i+" ");
             }
         }
     }
