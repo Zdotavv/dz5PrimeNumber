@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.print("Простые числа в диапазоне 2-200: ");
+        System.out.println("Простые числа в диапазоне от 2 до 200: ");
         for (int i = 2; i <= 200; i++) {
             boolean primeNumber = true;
 
@@ -11,7 +11,7 @@ public class Main {
                 }
             }
             if (primeNumber) {
-                System.out.print(i+" ");
+                System.out.println(i+" ");
             }
         }
     }
